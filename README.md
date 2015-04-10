@@ -4,6 +4,7 @@ This web page is built using **HTML5** . The styling of this page has been done 
 
 The page contains a *Google Custom Search Box* ,the Search Box uses **AJAX** to retrieve server side information from https://en.wikipedia.org/ , thereby creating a *Wikipedia Search Box*. The **AJAX** code used for the Search Box is :
 
+```javascript
 (function() {
 var cx = '009319930026121832260:75itm7znvtm';
 var gcse = document.createElement('script');
@@ -14,3 +15,4 @@ gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
 var s = document.getElementsByTagName('script')[0];
 s.parentNode.insertBefore(gcse, s);
 })();
+```
